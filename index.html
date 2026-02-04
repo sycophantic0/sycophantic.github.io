@@ -16,8 +16,8 @@
 </div>
 
 	<!--Display accuracy and wpm-->
-	<div id="stats">
-
+	<div id="statsDisplay">
+		<div class="statCol">
 		<!--WPM display-->
 		<div>
 			<p>WPM: <span id="wpmValue">0</span></p>
@@ -27,6 +27,17 @@
 		<div>
 			<p>Accuracy: %<span id="accValue">100</span></p>
 		</div>
+		</div>
+		<div class="statCol">
+			
+			<div>
+			Time left: <span id="timeValue">60</span>s
+			</div>
+			<div>
+				Raw: <span id="rawValue">0</span> Wpm
+			</div>
+
+		</div>
 	</div>
 	
 
@@ -34,11 +45,12 @@
 </header>
 
 
-<!--Main content--><main>
+<!--Main content-->
+<main>
 	<div id="textDisplay">
 		<!--Text to type will be displayed here-->
-
+		
 	</div>
-	
+</main>		
 </body>
 </html>

@@ -26,21 +26,22 @@ body {
 	margin-top: 10px;
 	
 }
-#textDisplay { 
-	text-align: center;
-	font-size: 20px;
-	margin-top: 20px;
 
-}
 .statCol {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 10px;
 }
+#textAreaContainer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
 #textDisplay {
 	background-color: rgb(24, 99, 197);
-	max-width: 80%;
-	margin: auto;
+	width: 80%;
+	
 	height: 50vh;
 	text-align: left;
 	font-size: 200%;
@@ -61,7 +62,9 @@ main {
 }
 #buttonContainer {
 	padding: 20px;
-	margin-left: 25%;
+	width:100%;
+	display: flex;
+	justify-content: center;
 }
 #restart {
 	font-size: 20px;
@@ -71,4 +74,5 @@ main {
 	background-color: #4CAF50;
 	color: white;
 	cursor: pointer;
+	width: 20em;
 }

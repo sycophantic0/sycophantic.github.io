@@ -47,10 +47,17 @@
 
 <!--Main content-->
 <main>
-	<div id="textDisplay">
-		<!--Text to type will be displayed here-->
-		dhaslk;dfj;asdf
+	<div>
+	<textarea id="textDisplay"
+	placeholder="start typing..."
+	oninput="processCurrentText()"
+	onfocus="startGame()"
+	>
+	</textarea>
 	</div>
+	<div id="buttonContainer">
+	<button type="radio" id="restart">restart</button>
+</div>
 </main>		
 </body>
 </html>

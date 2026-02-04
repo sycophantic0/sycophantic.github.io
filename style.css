@@ -56,4 +56,19 @@ main {
 	background-color: tomato;
 	padding-top: 5%;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+#buttonContainer {
+	padding: 20px;
+	margin-left: 25%;
+}
+#restart {
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
 }
